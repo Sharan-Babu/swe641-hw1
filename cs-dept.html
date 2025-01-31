@@ -1,0 +1,117 @@
+<!-- CS dept. page-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Department - George Mason University</title>
+    
+    <!-- Bootstrap CSS via cdn using script tag-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- GMU colors/styling-->
+    <style>
+        :root {
+            --gmu-green: #006633;
+            --gmu-yellow: #FFCC33;
+        }
+        body {
+            background-color: #f5f5f5;
+            padding-top: 2rem;
+        }
+        h1 {
+            color: var(--gmu-green);
+        }
+        .gmu-header {
+            border: 5px solid var(--gmu-green);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            background-color: white;
+        }
+        .gmu-text {
+            color: var(--gmu-green);
+        }
+        .custom-section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gmu-header text-center">
+            <img src="gmulogo.webp" alt="GMU Logo" class="img-fluid mb-3" style="max-height: 100px;">
+            <h1>Department of Computer Science</h1>
+            <p class="lead">George Mason University</p>
+        </div>
+
+        <div class="custom-section">
+            <h2 class="gmu-text">About the Department</h2>
+            <p>The Department of Computer Science at George Mason University is a vibrant community of scholars, researchers, and innovators. Committed to advancing the frontiers of computing through cutting-edge research and providing exceptional educational opportunities to students.</p>
+            <p>Department offers comprehensive programs that prepare students for leadership roles in the ever-evolving field of computer science. With state-of-the-art facilities and distinguished faculty members, we foster an environment of innovation and academic excellence.</p>
+        </div>
+
+        <div class="custom-section">
+            <h2 class="gmu-text">MS Degree Programs</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">MS in Computer Science</li>
+                <li class="list-group-item">MS in Software Engineering</li>
+                <li class="list-group-item">MS in Information Systems</li>
+                <li class="list-group-item">MS in Data Analytics Engineering</li>
+            </ul>
+        </div>
+
+        <div class="custom-section">
+            <h2 class="gmu-text">Required Courses</h2>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Course Number</th>
+                            <th>Course Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CS 530</td>
+                            <td>Mathematical Foundations of Computer Science</td>
+                        </tr>
+                        <tr>
+                            <td>CS 540</td>
+                            <td>Language Processors</td>
+                        </tr>
+                        <tr>
+                            <td>CS 550</td>
+                            <td>Database Systems</td>
+                        </tr>
+                        <tr>
+                            <td>CS 571</td>
+                            <td>Operating Systems</td>
+                        </tr>
+                        <tr>
+                            <td>CS 580</td>
+                            <td>Introduction to Artificial Intelligence</td>
+                        </tr>
+                        <tr>
+                            <td>CS 584</td>
+                            <td>Theory and Applications of Data Mining</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="text-center mb-4">
+            <a href="survey.html" class="btn btn-success">Take Our Department Survey</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!-- End of file-->
